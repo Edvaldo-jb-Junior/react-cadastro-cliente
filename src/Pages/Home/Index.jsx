@@ -21,7 +21,8 @@ function Home() {
       email: inputEmail.current.value,
       age: parseInt(inputAge.current.value),
     })
-   
+
+     console.log(data)
     navigate("/lista-de-usuarios")
    
   }

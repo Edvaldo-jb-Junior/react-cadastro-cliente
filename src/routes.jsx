@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom"
 
-import Home from "./Pages/Home"
+import Home from "./Pages/Home/Index"
 import ListerUser from "./Pages/ListerUser"
 
 const router = createBrowserRouter ([

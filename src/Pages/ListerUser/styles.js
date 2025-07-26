@@ -36,7 +36,7 @@ export const CardUsers = styled.div`
     justify-content: space-between;
     align-items: center;
     gap: 20 px;
-    max-width; 380px;
+    max-width: 380px;
 
     h3{
         color: #fff;
@@ -47,14 +47,14 @@ export const CardUsers = styled.div`
 
     p{
         color: #fff;
-        font-size; 14px;
+        font-size: 14px;
         font-weight: 200;
     }
 `
 
 export const TrashIcon = styled.img`
-    cursor: point;
-    pedding-left: 30px;
+    cursor: pointer;
+    padding-left: 30px;
 
     &:hover{
         opacity: 0.8;
